@@ -31,7 +31,8 @@
 				<form:option value="1" label="India" />
 				<form:option value="2" label="USA" />
 				<form:option value="3" label="UK" />
-				<form:option value="4" label="Sathy" />
+				<form:option value="4" label="Australia" />
+				<form:option value="5" label="NZ" />
 				
 			</form:select></td>
 		</tr>
