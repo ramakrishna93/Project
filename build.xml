@@ -13,7 +13,8 @@
 	</target>
 	
 	<target name="compile" depends="init" >
-		<-Dbuild.compiler=javac1.7 destdir="build/classes"  
+		<-Dbuild.compiler=javac1.7/>
+		<javac destdir="build/classes"  
 			includeantruntime="false" 
 			srcdir="src">
 			<classpath refid="compile.classpath"/>
