@@ -13,10 +13,9 @@
 	</target>
 	
 	<target name="compile" depends="init" >
-		<javac destdir="build/classes"  
+		<-Dbuild.compiler=javac1.7 destdir="build/classes"  
 			includeantruntime="false" 
-			srcdir="src"
-			-Dbuild.compiler="javac1.7">
+			srcdir="src">
 			<classpath refid="compile.classpath"/>
 		</javac>
 	</target>
