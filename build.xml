@@ -13,7 +13,7 @@
 	</target>
 	
 	<target name="compile" depends="init" >
-		<javac destdir="build/classes" srcdir="src">
+		<javac destdir="build/classes" includeantruntime="false" srcdir="src">
 			<classpath refid="compile.classpath"/>
 		</javac>
 	</target>
